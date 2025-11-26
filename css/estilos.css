@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#lista button {
+    margin-left: 5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* main cresce para empurrar o footer */
+main {
+    flex: 1;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastros</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- ===== HEADER ===== -->
+    <header class="bg-primary text-white text-center py-4 shadow">
+        <h1 class="mb-0">Cadastro de Usuários</h1>
+
+    </header>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cadastramento de usuários</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="integrantes.html">Integrantes</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== MAIN ===== -->
+    <main class="container my-5">
+        <!-- Section de Cadadastros -->
+        <section id="cadastros" class="mb-5">
+            <div class="card shadow">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Lista de nome</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row g-3 align-items-center mb-3">
+                        <div class="col-md-6">
+                            <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="date" id="data" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Seuemail@aqui.com">
+                        </div>
+                        <div class="col-md-2 d-grid">
+                            <button id="btnAdd" class="btn btn-success">Adicionar</button>
+                        </div>
+                    </div>
+
+                    <ul id="lista" class="list-group"></ul>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; Desenvolvimento de Software Multiplataforma | Davi Genari e Leonardo Nóbrega</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
